@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper > img {
+  height: 30px;
+}
+.wrapper img:first-child {
+  margin-right: 10px;
+}
