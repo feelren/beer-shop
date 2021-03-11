@@ -1,10 +1,17 @@
-.wrapper {
+.selector {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
-.wrapper > img {
-  height: 30px;
+.selector .active {
+  transform: scale(1.5);
 }
-.wrapper img:first-child {
+.selector > img {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 30px;
+  transition: 0.3s;
+}
+.selector > img:first-child {
   margin-right: 10px;
 }

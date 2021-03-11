@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+}
+.wrapper .no_items_block {
+  text-align: center;
+}
+.wrapper .no_items_block .cartImage {
+  display: block;
+  margin: 30px auto;
+  padding: 20px 100px;
+  border-radius: 100px;
+  max-width: 300px;
+  transition: 0.5s;
+}
+.wrapper .no_items_block .cartImage:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

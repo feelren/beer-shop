@@ -1,0 +1,22 @@
+.wrapper .active {
+  transform: scale(1.2);
+}
+.wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+.wrapper ul li {
+  list-style: none;
+  text-align: center;
+}
+.wrapper a {
+  max-width: 40%;
+  margin: 5px auto;
+  display: block;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  transition: 0.3s;
+}

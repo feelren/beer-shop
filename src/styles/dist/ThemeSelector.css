@@ -1,0 +1,10 @@
+.wrapper {
+  margin-top: 7px;
+  padding: 5px 10px;
+}
+.wrapper img {
+  height: 20px;
+}
+.wrapper .active {
+  transform: scale(1.8);
+}

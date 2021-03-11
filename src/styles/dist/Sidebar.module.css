@@ -1,0 +1,39 @@
+.wrapper {
+  grid-area: sidebar;
+  padding: 20px;
+  background-color: white;
+  border-radius: 35px;
+}
+.wrapper p {
+  font-weight: bold;
+  margin-top: 0;
+}
+.wrapper > div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.settings_bg {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    position: fixed;
+    z-index: 2;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    transition: 0.25s;
+    transform: translateX(-120%);
+  }
+  .wrapper.active {
+    transform: translateX(0);
+  }
+}

@@ -1,4 +1,51 @@
-.app-wrapper {
-    margin: 0 auto;
-    max-width: 1200px;
+.app {
+    display: grid;
+    padding: 0 20px;
+    grid-template-areas:
+        'header header'
+        'sidebar main'
+        'sidebar main';
+    grid-template-columns: 20% 1fr;
+    align-items: start;
+    align-content: start;
+    transition: 0.4s;
+    min-height: 100vh;
+    background-color: #e1e0fe;
+}
+
+.main {
+    grid-area: main;
+    position: relative;
+    padding: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (max-width: 1200px) {
+    .app {
+        grid-template-areas:
+            'header header'
+            'sidebar sidebar'
+            'main main';
+        grid-template-columns: 1fr;
+    }
+
+    .main {
+        padding: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .main {
+        padding: 15px;
+    }
 }

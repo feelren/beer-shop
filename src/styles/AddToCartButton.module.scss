@@ -1,0 +1,13 @@
+.button {
+	padding: 10px;
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	transition: 0.1s;
+	font-size: 0.7em;
+	transition: 0.3s;
+
+	&.remove {
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+}

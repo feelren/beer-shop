@@ -1,0 +1,72 @@
+.item {
+	position: relative;
+	display: flex;
+	max-width: 800px;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+
+	button {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+
+	.photo_container {
+		margin-right: 20px;
+		border-radius: 5px;
+		width: 15%;
+		transition: 0.1s;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+
+		.photo {
+			display: block;
+			margin: 0 auto;
+			max-height: 150px;
+			max-width: 100%;
+		}
+
+		.no_photo {
+			display: flex;
+			height: 100%;
+			align-items: center;
+		}
+	}
+
+	.info {
+		width: 85%;
+
+		h3 {
+			margin: 0 auto 15px;
+		}
+	}
+}
+
+@media (max-width: 1400px) {
+	.item button {
+		position: static;
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.item {
+		justify-content: space-between;
+
+		.photo_container {
+			width: 30%;
+			margin-right: 5px;
+		}
+		.info {
+			width: 70%;
+			font-size: 0.8em;
+		}
+	}
+}

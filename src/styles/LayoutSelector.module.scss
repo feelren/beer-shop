@@ -1,12 +1,20 @@
-.wrapper {
+.selector {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 
-	& > img {
-		height: 30px;
+	.active {
+		transform: scale(1.5);
 	}
 
-	img:first-child {
-		margin-right: 10px;
+	& > img {
+		cursor: pointer;
+		padding: 10px;
+		border-radius: 10px;
+		max-height: 30px;
+		transition: 0.3s;
+
+		&:first-child {
+			margin-right: 10px;
+		}
 	}
 }
