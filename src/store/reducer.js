@@ -14,7 +14,7 @@ const CLOSE_PRODUCT_MODAL = "CLOSE_PRODUCT_MODAL";
 const OPEN_PRODUCT_MODAL = "OPEN_PRODUCT_MODAL";
 const ADD_TO_CART = "ADD_TO_CART";
 const REMOVE_FROM_CART = "REMOVE_FROM_CART";
-const TOGGLE_IS_SETTINGS_WINDOW_ACTIVE = "TOGGLE_IS_SETTINGS_WINDOW_ACTIVE";
+const TOGGLE_IS_SIDEBAR_ACTIVE = "TOGGLE_IS_SIDEBAR_ACTIVE";
 
 //itemsLayout === "grid" или "list"
 let initialState = {
@@ -28,7 +28,7 @@ let initialState = {
 	isFetching: false,
 	itemsLayout: "list",
 	isProductModalActive: false,
-	isSettingsWindowActive: false,
+	isSidebarActive: false,
 };
 
 let reducer = (state = initialState, action) => {
@@ -47,10 +47,10 @@ let reducer = (state = initialState, action) => {
 			};
 		}
 
-		case TOGGLE_IS_SETTINGS_WINDOW_ACTIVE: {
+		case TOGGLE_IS_SIDEBAR_ACTIVE: {
 			return {
 				...state,
-				isSettingsWindowActive: !state.isSettingsWindowActive,
+				isSidebarActive: !state.isSidebarActive,
 			};
 		}
 
@@ -159,8 +159,8 @@ export let setSelectedItemAC = (item) => ({
 	item,
 });
 
-export let toggleIsSettingsWindowActiveAC = () => ({
-	type: TOGGLE_IS_SETTINGS_WINDOW_ACTIVE,
+export let isSidebarActiveAC = () => ({
+	type: TOGGLE_IS_SIDEBAR_ACTIVE,
 });
 
 let toggleIsFetchingAC = () => ({

@@ -7,11 +7,17 @@
 .wrapper .no_items_block .cartImage {
   display: block;
   margin: 30px auto;
-  padding: 20px 100px;
-  border-radius: 100px;
-  max-width: 300px;
-  transition: 0.5s;
+  padding: 20px 80px;
+  max-width: 20%;
+  border-radius: 30px;
 }
 .wrapper .no_items_block .cartImage:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 620px) {
+  .wrapper .no_items_block .cartImage {
+    padding: 0;
+    max-width: 80%;
+  }
 }

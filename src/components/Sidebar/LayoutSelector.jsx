@@ -12,7 +12,7 @@ const LayoutSelector = () => {
 
     return (
         <div className={s.wrapper}>
-            <p>Shop layout</p>
+            <p>Layout</p>
             <div className={s.selector}>
                 <img className={itemsLayout === 'grid' ? s.active : null} src={grid} alt="grid" onClick={() => dispatch(changeLayoutToGridAC())} />
                 <img className={itemsLayout === 'list' ? s.active : null} src={rows} alt="rows" onClick={() => dispatch(changeLayoutToListAC())} />

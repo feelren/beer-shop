@@ -1,5 +1,5 @@
 html {
-  transition: 0.3s;
+  min-width: 375px;
 }
 
 body {

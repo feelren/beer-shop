@@ -2,28 +2,33 @@ import React from 'react'
 import s from '../../styles/dist/Sidebar.module.css'
 import ItemsCountSelector from './ItemsCountSelector';
 import Navigation from './Navigation';
-import { Route } from 'react-router-dom';
 import LayoutSelector from './LayoutSelector';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { isSidebarActiveAC } from '../../store/reducer';
 
 
 
 const Sidebar = () => {
-    const isSettingsWindowActive = useSelector(state => state.main.isSettingsWindowActive);
+    const isSidebarActive = useSelector(state => state.main.isSidebarActive);
+    const dispatch = useDispatch();
 
-    let giveClassNameForSidebar = () => {
-        if (isSettingsWindowActive) return s.wrapper + ' ' + s.active;
+    let setClassNameForSidebar = () => {
+        if (isSidebarActive) return s.wrapper + ' ' + s.active;
         else return s.wrapper;
     }
 
+    let setClassNameForContainer = () => {
+        if (isSidebarActive) return s.container + ' ' + s.active;
+        else return s.container;
+    }
+
     return (
-        <div>
-            <nav className={giveClassNameForSidebar()}>
+        <div className={setClassNameForContainer()} onClick={() => dispatch(isSidebarActiveAC())}>
+            <nav className={setClassNameForSidebar()} onClick={(e) => e.stopPropagation()}>
                 <Navigation />
-                <Route path='/shop' render={() => <LayoutSelector />} />
-                <Route path='/shop' render={() => <ItemsCountSelector />} />
+                <LayoutSelector />
+                <ItemsCountSelector />
             </nav>
-            <div className={s.settings_bg}></div>
         </div>
 
     )

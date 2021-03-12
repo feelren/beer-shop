@@ -1,39 +1,49 @@
-.wrapper {
+.container .wrapper {
   grid-area: sidebar;
   padding: 20px;
   background-color: white;
   border-radius: 35px;
+  box-shadow: 0 0 5px black;
 }
-.wrapper p {
+.container .wrapper p {
   font-weight: bold;
   margin-top: 0;
 }
-.wrapper > div:not(:last-child) {
+.container .wrapper > div:not(:last-child) {
   margin-bottom: 20px;
 }
-
-.settings_bg {
+.container .wrapper .close_btn {
   display: none;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  right: 20px;
+  top: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
-  .wrapper {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
     position: fixed;
-    z-index: 2;
-    left: 20px;
-    right: 20px;
-    top: 20px;
-    transition: 0.25s;
-    transform: translateX(-120%);
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(0);
+    transition: 0.22s;
   }
-  .wrapper.active {
-    transform: translateX(0);
+  .container.active {
+    transform: scale(1);
+  }
+  .container .wrapper {
+    z-index: 2;
+    width: 100%;
+  }
+  .container .wrapper .close_btn {
+    display: block;
   }
 }

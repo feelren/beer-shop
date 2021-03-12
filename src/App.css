@@ -22,8 +22,10 @@
 button {
     background-color: black;
     color: white;
+    border: none;
     border-radius: 10px;
     outline: none;
+    cursor: pointer;
 }
 
 button:focus {
