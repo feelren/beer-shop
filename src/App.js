@@ -13,12 +13,12 @@ function App() {
 
 	return (
 		<div className="app">
-			<Redirect to="/shop" />
+			<Redirect to="/beer-shop/shop" />
 			<Header />
 			<Sidebar />
 			<div className="main">
-				<Route path="/shop" render={() => <Shop />} />
-				<Route path="/cart" render={() => <Cart />} />
+				<Route path="/beer-shop/shop" render={() => <Shop />} />
+				<Route path="/beer-shop/cart" render={() => <Cart />} />
 			</div>
 			{isProductModalActive && !isFetching ? <ProductModal /> : null}
 		</div>
