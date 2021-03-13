@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/beer-shop/static/css/main.f3ab047a.chunk.css",
-    "main.js": "/beer-shop/static/js/main.d4c81f0c.chunk.js",
-    "main.js.map": "/beer-shop/static/js/main.d4c81f0c.chunk.js.map",
-    "runtime-main.js": "/beer-shop/static/js/runtime-main.34c9a988.js",
-    "runtime-main.js.map": "/beer-shop/static/js/runtime-main.34c9a988.js.map",
-    "static/js/2.fd0dd8aa.chunk.js": "/beer-shop/static/js/2.fd0dd8aa.chunk.js",
-    "static/js/2.fd0dd8aa.chunk.js.map": "/beer-shop/static/js/2.fd0dd8aa.chunk.js.map",
-    "static/js/3.2cffe468.chunk.js": "/beer-shop/static/js/3.2cffe468.chunk.js",
-    "static/js/3.2cffe468.chunk.js.map": "/beer-shop/static/js/3.2cffe468.chunk.js.map",
+    "main.css": "/beer-shop/static/css/main.a4bfdcd9.chunk.css",
+    "main.js": "/beer-shop/static/js/main.339ba4bf.chunk.js",
+    "main.js.map": "/beer-shop/static/js/main.339ba4bf.chunk.js.map",
+    "runtime-main.js": "/beer-shop/static/js/runtime-main.3f34b557.js",
+    "runtime-main.js.map": "/beer-shop/static/js/runtime-main.3f34b557.js.map",
+    "static/js/2.ef9f1b33.chunk.js": "/beer-shop/static/js/2.ef9f1b33.chunk.js",
+    "static/js/2.ef9f1b33.chunk.js.map": "/beer-shop/static/js/2.ef9f1b33.chunk.js.map",
+    "static/js/3.93de474a.chunk.js": "/beer-shop/static/js/3.93de474a.chunk.js",
+    "static/js/3.93de474a.chunk.js.map": "/beer-shop/static/js/3.93de474a.chunk.js.map",
     "index.html": "/beer-shop/index.html",
-    "static/css/main.f3ab047a.chunk.css.map": "/beer-shop/static/css/main.f3ab047a.chunk.css.map",
-    "static/js/2.fd0dd8aa.chunk.js.LICENSE.txt": "/beer-shop/static/js/2.fd0dd8aa.chunk.js.LICENSE.txt",
+    "static/css/main.a4bfdcd9.chunk.css.map": "/beer-shop/static/css/main.a4bfdcd9.chunk.css.map",
+    "static/js/2.ef9f1b33.chunk.js.LICENSE.txt": "/beer-shop/static/js/2.ef9f1b33.chunk.js.LICENSE.txt",
     "static/media/cartImage.cc88baf6.svg": "/beer-shop/static/media/cartImage.cc88baf6.svg",
     "static/media/main-logo.26e24422.png": "/beer-shop/static/media/main-logo.26e24422.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.34c9a988.js",
-    "static/js/2.fd0dd8aa.chunk.js",
-    "static/css/main.f3ab047a.chunk.css",
-    "static/js/main.d4c81f0c.chunk.js"
+    "static/js/runtime-main.3f34b557.js",
+    "static/js/2.ef9f1b33.chunk.js",
+    "static/css/main.a4bfdcd9.chunk.css",
+    "static/js/main.339ba4bf.chunk.js"
   ]
 }
