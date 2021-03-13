@@ -2,7 +2,7 @@
   "name": "beer-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://feelren.github.io/beer-shop/",
+  "homepage": "https://feelren.github.io/beer-shop",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",

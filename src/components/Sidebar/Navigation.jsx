@@ -11,8 +11,8 @@ const Navigation = () => {
         <div className={s.wrapper}>
             <p>Navigation</p>
             <ul>
-                <li><NavLink to='/beer-shop/shop' activeClassName={s.active} onClick={() => dispatch(isSidebarActiveAC())}>Shop</NavLink></li>
-                <li><NavLink to='/beer-shop/cart' activeClassName={s.active} onClick={() => dispatch(isSidebarActiveAC())}>Cart</NavLink></li>
+                <li><NavLink to='/shop' activeClassName={s.active} onClick={() => dispatch(isSidebarActiveAC())}>Shop</NavLink></li>
+                <li><NavLink to='/cart' activeClassName={s.active} onClick={() => dispatch(isSidebarActiveAC())}>Cart</NavLink></li>
 
             </ul>
         </div>
