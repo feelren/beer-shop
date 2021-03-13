@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<div className="app">
-			{/* <Redirect to="/beer-shop/shop" /> */}
+			<Redirect to="/shop" />
 			<Header />
 			<Sidebar />
 			<div className="main">
