@@ -1,3 +1,5 @@
+[Нажмите здесь, чтобы запустить ДЕМО](https://feelren.github.io/beer-shop/)
+
 Актуальные знания веб-разработки на Март-2021. Задачей было применить на практике знания react, redux, redux-thunk, react-router, scss. 
 Использовал хуки useEffect, useSelector, useDispatch. Асинхронные запросы осуществляются через Санки.
 
