@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beer-shop/static/css/main.052e27a1.chunk.css",
+    "main.css": "/beer-shop/static/css/main.ad4378a8.chunk.css",
     "main.js": "/beer-shop/static/js/main.859ac4b4.chunk.js",
     "main.js.map": "/beer-shop/static/js/main.859ac4b4.chunk.js.map",
     "runtime-main.js": "/beer-shop/static/js/runtime-main.3f34b557.js",
@@ -10,7 +10,7 @@
     "static/js/3.93de474a.chunk.js": "/beer-shop/static/js/3.93de474a.chunk.js",
     "static/js/3.93de474a.chunk.js.map": "/beer-shop/static/js/3.93de474a.chunk.js.map",
     "index.html": "/beer-shop/index.html",
-    "static/css/main.052e27a1.chunk.css.map": "/beer-shop/static/css/main.052e27a1.chunk.css.map",
+    "static/css/main.ad4378a8.chunk.css.map": "/beer-shop/static/css/main.ad4378a8.chunk.css.map",
     "static/js/2.61a4bff8.chunk.js.LICENSE.txt": "/beer-shop/static/js/2.61a4bff8.chunk.js.LICENSE.txt",
     "static/media/cartImage.cc88baf6.svg": "/beer-shop/static/media/cartImage.cc88baf6.svg",
     "static/media/main-logo.26e24422.png": "/beer-shop/static/media/main-logo.26e24422.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f34b557.js",
     "static/js/2.61a4bff8.chunk.js",
-    "static/css/main.052e27a1.chunk.css",
+    "static/css/main.ad4378a8.chunk.css",
     "static/js/main.859ac4b4.chunk.js"
   ]
 }
