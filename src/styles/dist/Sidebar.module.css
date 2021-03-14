@@ -1,3 +1,6 @@
+.container {
+  letter-spacing: 1.5px;
+}
 .container .wrapper {
   grid-area: sidebar;
   padding: 20px;
